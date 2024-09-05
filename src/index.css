@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+html,
+body {
+	width: 100%;
+}
+
+body {
+	height: 100vh;
+	max-height: 100vh;
+	overflow: hidden;
+  background-color: #fefefe;
+}
+
+.bg-primary-color{
+	background: var(--primary-color);
+}
+.logo{
+  color: var(--primary-color);
+}
+
