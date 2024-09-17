@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../node_modules/primereact/overlayservice/overlayservice.esm.js"],
+  "sourcesContent": ["import { EventBus } from 'primereact/utils';\n\nvar OverlayService = EventBus();\n\nexport { OverlayService };\n"],
+  "mappings": ";;;;;AAEA,IAAI,iBAAiB,SAAS;",
+  "names": []
+}
