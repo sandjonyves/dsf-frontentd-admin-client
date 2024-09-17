@@ -1,9 +1,9 @@
-import { Navigate, Outlet } from 'react-router-dom';
+import {  Outlet } from 'react-router-dom';
 import NavBar from '../../components/NavBar';
-import { useMyLocalStorage } from '../../contexts/LocalStorageProvider';
+// import { useMyLocalStorage } from '../../contexts/LocalStorageProvider';
 
 const DashboardLayout = () => {
-	const { currentUser } = useMyLocalStorage();
+	// const { currentUser } = useMyLocalStorage();
 
 	//if(!currentUser) return <Navigate to={'/auth/login'} />
 	
